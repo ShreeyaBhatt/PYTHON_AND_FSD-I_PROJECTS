@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💰 Expense Tracker</h1>
+
+<div class="container">
+
+    <h2>Add Expense</h2>
+
+    <label>Date</label>
+    <input type="date" id="date">
+
+    <label>Category</label>
+    <select id="category">
+        <option>Food</option>
+        <option>Transport</option>
+        <option>Entertainment</option>
+        <option>Utilities</option>
+        <option>Other</option>
+    </select>
+
+    <label>Amount</label>
+    <input type="number" id="amount">
+
+    <label>Description</label>
+    <input type="text" id="description">
+
+    <button onclick="addExpense()">Add Expense</button>
+
+    <h2>Summary</h2>
+    <p id="total"></p>
+    <p id="average"></p>
+
+    <h2>Expense History</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="expenseTable"></tbody>
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

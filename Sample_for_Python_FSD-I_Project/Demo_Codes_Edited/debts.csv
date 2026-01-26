@@ -1,0 +1,4 @@
+Date,Person,Amount,Type,Note,Status
+2026-01-26,Payal,200.0,I Owe,,Paid
+2026-01-26,Aditi,500.0,Owed To Me,Movie tickets split,Paid
+2026-01-26,Sahil,400.0,I Owe,Group Dinner Share,Unpaid

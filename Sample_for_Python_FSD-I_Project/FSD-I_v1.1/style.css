@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2, h3 {
+    color: darkblue;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav button:hover {
+    background-color: dodgerblue;
+}
+
+.page {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+input, select {
+    display: block;
+    margin: 8px 0;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th {
+    background-color: lightblue;
+    color: black;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}

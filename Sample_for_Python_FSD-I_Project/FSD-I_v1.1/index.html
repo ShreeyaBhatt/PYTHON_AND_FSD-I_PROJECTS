@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>💰 Expense Tracker</h1>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <button onclick="showPage('expense')">Expense Tracker</button>
+        <button onclick="showPage('debt')">Debt Tracker</button>
+        <button onclick="showPage('visual')">Visualisations</button>
+    </div>
+
+    <!-- Expense Page -->
+    <div id="expense" class="page">
+        <h2>Add Expense</h2>
+
+        <input type="date" id="expDate">
+        <select id="expCategory">
+            <option>Food</option>
+            <option>Transport</option>
+            <option>Entertainment</option>
+            <option>Utilities</option>
+            <option>Other</option>
+        </select>
+        <input type="number" id="expAmount" placeholder="Amount">
+        <input type="text" id="expDesc" placeholder="Description">
+
+        <button onclick="addExpense()">Add Expense</button>
+
+        <h3>Expense History</h3>
+        <table id="expenseTable">
+            <tr>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Debt Page -->
+    <div id="debt" class="page hidden">
+        <h2>Add Debt</h2>
+
+        <input type="date" id="debtDate">
+        <input type="text" id="person" placeholder="Person Name">
+        <input type="number" id="debtAmount" placeholder="Amount">
+        <select id="debtType">
+            <option>I Owe</option>
+            <option>Owed To Me</option>
+        </select>
+
+        <button onclick="addDebt()">Add Debt</button>
+
+        <h3>Debt History</h3>
+        <ul id="debtList"></ul>
+    </div>
+
+    <!-- Visualisation Page -->
+    <div id="visual" class="page hidden">
+        <h2>Visualisations</h2>
+        <p>(Charts will come from backend later)</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

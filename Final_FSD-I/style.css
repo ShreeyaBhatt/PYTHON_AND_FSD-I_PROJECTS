@@ -1,0 +1,118 @@
+/* Body */
+body {
+    background: #60A5FA; /* Lighter sky blue */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #2563EB; /* Medium blue for contrast */
+}
+
+.nav-link:hover {
+    color: #FFD700; /* Gold hover */
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #FFD700;
+}
+
+/* Logo */
+.logo-img {
+    height: 40px;
+    border-radius: 6px;
+}
+
+/* Boxes */
+.box {
+    background: #E0F2FE; /* Light box background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+    color: #1E3A8A; /* Darker blue for contrast */
+}
+
+h4 {
+    color: #1D4ED8; /* Dark blue */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #3B82F6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2563EB;
+}
+
+/* Table */
+table th {
+    background-color: #1E40AF; /* Darker blue */
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+/* About Section */
+.about-box {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Dashboard Total Boxes with Smooth Blue-to-Green Gradient */
+.dashboard-total {
+    background: linear-gradient(135deg, #3B82F6 0%, #06D6A0 100%); /* Vivid blue → bright green */
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-total:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.dashboard-total h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* About Section Person Boxes with Rich Blue-to-Green Gradient */
+.person-box {
+    background: linear-gradient(135deg, #3B82F6 0%, #10B981 50%, #06D6A0 100%);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.person-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.person-box h6 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.person-box p {
+    margin: 0;
+    color: #E0F7FA;
+}
